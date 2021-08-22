@@ -10,7 +10,7 @@ class BankAccount:
         self.amt = amt
 
     def __str__(self):
-        return "Your account, " + self.name + " ,has " + self.amt + " dollars."
+        return "Your account, " + self.name + ", has " + str(self.amt) + " dollars."
 
 
 # OpenU - Maman 13 - Question 2.B
